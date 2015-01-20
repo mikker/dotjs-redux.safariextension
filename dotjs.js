@@ -1,10 +1,10 @@
-$.ajax({
-  url: 'https://localhost:3131/' + window.location.host.replace('www.', '') + '.js',
-  dataType: 'text',
-  success: function(d) {
-    $(function() { eval(d) });
-  },
-  error: function(){
-    console.log('no dotjs server found at localhost:3131');
-  }
-})
+(function(w, d) {
+  'use strict';
+
+  d.addEventListener('DOMContentLoaded', function() {
+    var file = '//localhost:3131/' + w.location.host.replace('www.', '') + '.js';
+    var scriptElm = document.createElement('script');
+    scriptElm.src = file;
+    d.body.appendChild(scriptElm);
+  });
+})(window, document);

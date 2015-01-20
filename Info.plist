@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Chris Wanstrath (adapted for Safari by Will Farrington)</string>
+	<string>Mikkel Malmberg (original by Chris Wanstrath)</string>
+	<key>Builder Version</key>
+	<string>10600.3.17</string>
 	<key>CFBundleDisplayName</key>
-	<string>dotjs</string>
+	<string>dotjs-redux</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.github.dotjs</string>
+	<string>com.brnbw.dotjs-redux</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3</string>
+	<string>1</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -22,7 +24,6 @@
 		<dict>
 			<key>Start</key>
 			<array>
-				<string>jquery.js</string>
 				<string>dotjs.js</string>
 			</array>
 		</dict>
@@ -34,6 +35,8 @@
 	</dict>
 	<key>Description</key>
 	<string>~/.js</string>
+	<key>DeveloperIdentifier</key>
+	<string>DDB8SQMXS9</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -47,6 +50,6 @@
 		</dict>
 	</dict>
 	<key>Website</key>
-	<string>https://github.com/defunkt/dotjs</string>
+	<string>https://github.com/mikker/dotjs-redux</string>
 </dict>
 </plist>
