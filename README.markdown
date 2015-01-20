@@ -23,7 +23,7 @@ modifications. With dotjs, just add or edit files in
 ## Installation
 
 1. Ensure you have defunkt's dotjs installed and running.
-2. [Install the extension](#)
+2. [Install the extension](https://github.com/mikker/dotjs-redux.safariextension/releases/download/v1.0/dotjs-redux.safariextz)
 
 ## How It Works
 
