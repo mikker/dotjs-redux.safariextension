@@ -2,7 +2,7 @@
   'use strict';
 
   d.addEventListener('DOMContentLoaded', function() {
-    var file = '//localhost:3131/' + w.location.host.replace('www.', '') + '.js';
+    var file = 'https://localhost:3131/' + w.location.host.replace('www.', '') + '.js';
     var scriptElm = document.createElement('script');
     scriptElm.src = file;
     d.body.appendChild(scriptElm);
