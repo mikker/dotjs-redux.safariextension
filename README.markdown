@@ -1,3 +1,7 @@
+# DEPRECATED: Please see my project [joof](https://github.com/mikker/joof) for a modern alternative to dotjs
+
+---
+
 # dotjs-redux
 
 Run `~/.js/example.com.js` when you load example.com.
